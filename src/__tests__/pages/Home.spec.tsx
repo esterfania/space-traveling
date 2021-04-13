@@ -189,7 +189,6 @@ describe('Home', () => {
 
     screen.getByText('Como utilizar Hooks');
     const loadMorePostsButton = screen.getByText('Carregar mais posts');
-
     fireEvent.click(loadMorePostsButton);
 
     await waitFor(

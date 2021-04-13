@@ -1,1 +1,65 @@
-// TODO
+.home {
+  &Container {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  &Content {
+    max-width: 700px;
+    margin: 0 auto;
+
+    button {
+      background: transparent;
+      border: 1px transparent;
+      color: var(--pink-500);
+      font-weight: 600;
+      font-size: 1.125rem;
+      line-height: 1.375rem;
+      margin-top: 4rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &Post {
+    margin-top: 3rem;
+    a {
+      font-weight: 700;
+      font-size: 1.75rem;
+      line-height: 2rem;
+      letter-spacing: -0.5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+      transition: color 0.5s;
+
+      &:hover {
+        color: var(--pink-500);
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.125rem;
+      color: var(--gray-50);
+      line-height: 2rem;
+    }
+  }
+
+  &PublicationInfo {
+    margin-top: 1rem;
+    color: var(--gray-50);
+
+    span {
+      margin-right: 1rem;
+      font-size: 0.875rem;
+    }
+    svg {
+      margin-right: 0.5rem;
+      vertical-align: middle;
+      font-size: 1rem;
+    }
+  }
+}
