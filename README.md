@@ -1,9 +1,10 @@
 # 🚀 Space Traveling
 ## 💻 Sobre o desafio
 
-Nesse desafio, você deverá criar uma aplicação para treinar o que aprendeu até agora no ReactJS
+Nesse desafio, foi criada uma aplicação para treinar os aprendizados em ReactJS
 
-Essa será uma aplicação onde o seu principal objetivo é criar um blog do zero. Você vai receber uma aplicação praticamente em branco que deve consumir os dados do Prismic e ter a interface implementada conforme o layout do Figma. Você terá acesso a diversos arquivos para implementar:
+Esse é um blog do zero, criado do 0, onde são consumidos dados do Prismic e a interface é implementada a partir do [layout no Figma](https://www.figma.com/file/0Y26j0tf1K2WB5c1ja5hov/Desafios-M%C3%B3dulo-3-ReactJS?node-id=0%3A1/duplicate).
+O que foi feito:
 
 - Estilizações global, comun e individuais;
 - Importação de fontes Google;
@@ -14,8 +15,6 @@ Essa será uma aplicação onde o seu principal objetivo é criar um blog do 
 - Uso de ícones com `react-icons`;
 - Requisições HTTP com `fetch`;
 - Entre outros.
-
-A seguir veremos com mais detalhes o que e como precisa ser feito 🚀
 
 Resultado final:
 
