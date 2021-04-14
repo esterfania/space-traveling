@@ -75,6 +75,7 @@ export default function Home({ postsPagination }: HomeProps): JSX.Element {
   return (
     <>
       <Header />
+
       <main className={styles.homeContainer}>
         <article className={styles.homeContent}>
           {postResults.map(post => (
@@ -83,11 +84,11 @@ export default function Home({ postsPagination }: HomeProps): JSX.Element {
                 <a>{post.data.title}</a>
               </Link>
               <p>{post.data.subtitle}</p>
-              <div className={styles.homePublicationInfo}>
-                <span>
+              <div className={commonStyles.publicationInfo}>
+                <time>
                   <FiCalendar />
                   {formatDate(post.first_publication_date)}
-                </span>
+                </time>
                 <span>
                   <FiUser />
                   {post.data.author}
@@ -96,7 +97,11 @@ export default function Home({ postsPagination }: HomeProps): JSX.Element {
             </div>
           ))}
           {nextPage && (
-            <button type="button" onClick={loadMoreData}>
+            <button
+              type="button"
+              onClick={loadMoreData}
+              className={commonStyles.btnLink}
+            >
               Carregar mais posts
             </button>
           )}

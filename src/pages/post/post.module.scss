@@ -1,1 +1,38 @@
-// TODO
+.container {
+  width: 100%;
+
+  .post {
+    > div {
+      max-width: 700px;
+      margin: 3rem auto;
+    }
+    a {
+      color: var(--pink-500);
+    }
+    p {
+      margin-bottom: 3rem;
+      text-align: justify;
+    }
+
+    img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: fill;
+    }
+    &PublicationInfo {
+      margin: 1rem 0 4rem;
+      color: var(--gray-50);
+
+      span,
+      time {
+        margin-right: 1rem;
+        font-size: 0.875rem;
+      }
+      svg {
+        margin-right: 0.5rem;
+        vertical-align: middle;
+        font-size: 1rem;
+      }
+    }
+  }
+}
