@@ -1,4 +1,4 @@
-export const UtterancesComments: React.FC = () => (
+export const Comment: React.FC = () => (
   <section
     ref={elem => {
       if (!elem) {
