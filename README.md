@@ -6,7 +6,7 @@ Nesse desafio, foi criada uma aplicação para treinar os aprendizados em 
 Esse é um blog do zero, onde são consumidos dados do Prismic e a interface é implementada a partir do [layout no Figma](https://www.figma.com/file/0Y26j0tf1K2WB5c1ja5hov/Desafios-M%C3%B3dulo-3-ReactJS?node-id=0%3A1/duplicate).
 O que foi feito:
 
-- Estilizações global, comun e individuais;
+- Estilizações global, comum e individuais;
 - Importação de fontes Google;
 - Paginação de posts;
 - Cálculo de tempo estimado de leitura do post;
